@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lost Mobile Report</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Report Lost Mobile</h2>
+    <form onsubmit="return reportLostMobile()">
+      <input type="text" id="ownerName" placeholder="Owner Name" required>
+      <input type="text" id="lostMobile" placeholder="Mobile Number" required>
+      <textarea id="details" placeholder="Enter details" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="reportMsg"></p>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
